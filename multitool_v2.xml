@@ -1,0 +1,2477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\danie\Documents\kicad\multitool_v2\multitool_v2.kicad_sch</source>
+    <date>6/19/2021 10:45:32 PM</date>
+    <tool>Eeschema (5.99.0-10906-g4c293e0936)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>multitool_v2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>vca.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>vclfo.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>active_mixer.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_02x06_Odd_Even</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">Conn_02x06_Odd_Even</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x06_Odd_Even" description="Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Spice_Primitive" value="J"/>
+      <property name="Spice_Model" value="Conn_02x06_Odd_Even"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multitool_v2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1fc5ab9-fa72-439e-b0d5-5ac0a6e5c512</tstamps>
+    </comp>
+    <comp ref="V1">
+      <value>VSOURCE</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">dc 12</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="pspice" part="VSOURCE" description="Voltage source symbol for simulation only"/>
+      <property name="Spice_Primitive" value="V"/>
+      <property name="Spice_Model" value="dc 12"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multitool_v2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4531416e-fadf-4a0c-b28d-dc38f4584f5f</tstamps>
+    </comp>
+    <comp ref="V2">
+      <value>VSOURCE</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">dc 12</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="pspice" part="VSOURCE" description="Voltage source symbol for simulation only"/>
+      <property name="Spice_Primitive" value="V"/>
+      <property name="Spice_Model" value="dc 12"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multitool_v2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d6c6f1f-c5f9-4756-8d40-fc46a2c1de91</tstamps>
+    </comp>
+    <comp ref="V3">
+      <value>VSOURCE</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">dc 5</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="pspice" part="VSOURCE" description="Voltage source symbol for simulation only"/>
+      <property name="Spice_Primitive" value="V"/>
+      <property name="Spice_Model" value="dc 5"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="multitool_v2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7943e61c-61f2-456c-93c9-759c6f92e66b</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>22p</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>50e82ed2-9ccb-494a-a1a3-68d015263267</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>560p</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>7dd33a8c-bfd2-42af-a663-733c2212830e</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>560p</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>ec9a0632-63f8-4ea1-b878-aefcef4d57ae</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>22p</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>cf819e6c-c485-400a-a08e-d185557bf0dd</tstamps>
+    </comp>
+    <comp ref="J_VCA1_CV1">
+      <value>AudioJack2_SwitchT</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">AudioJack2_SwitchT</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Spice_Primitive" value="J"/>
+      <property name="Spice_Model" value="AudioJack2_SwitchT"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>089d6065-f4a9-49ef-8441-f5a8cabf92d1</tstamps>
+    </comp>
+    <comp ref="J_VCA1_CV2">
+      <value>AudioJack2_SwitchT</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">AudioJack2_SwitchT</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Spice_Primitive" value="J"/>
+      <property name="Spice_Model" value="AudioJack2_SwitchT"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>ed3705ce-5915-4fdc-911a-31d2c411cd84</tstamps>
+    </comp>
+    <comp ref="J_VCA1_IN1">
+      <value>AudioJack2_SwitchT</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">AudioJack2_SwitchT</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Spice_Primitive" value="J"/>
+      <property name="Spice_Model" value="AudioJack2_SwitchT"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>b3db6b6a-2866-4358-b2a3-b64ffd45d537</tstamps>
+    </comp>
+    <comp ref="J_VCA1_IN2">
+      <value>AudioJack2_SwitchT</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">AudioJack2_SwitchT</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Spice_Primitive" value="J"/>
+      <property name="Spice_Model" value="AudioJack2_SwitchT"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>d6dc34bd-f49c-4a44-ad8f-d98d4c34cfa9</tstamps>
+    </comp>
+    <comp ref="J_VCA1_OUT1">
+      <value>AudioJack2_SwitchT</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">AudioJack2_SwitchT</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Spice_Primitive" value="J"/>
+      <property name="Spice_Model" value="AudioJack2_SwitchT"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>663f4dde-46fc-48b9-adf8-0b57442f450f</tstamps>
+    </comp>
+    <comp ref="J_VCA1_OUT2">
+      <value>AudioJack2_SwitchT</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">AudioJack2_SwitchT</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Spice_Primitive" value="J"/>
+      <property name="Spice_Model" value="AudioJack2_SwitchT"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>c2381761-d2a6-47bd-82a8-c71b34913f97</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1.5k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>46a56556-4ffc-484f-95db-637be89b5fb9</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>13k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>7462c85a-24ca-4360-a015-7cb964bb3e3b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1.5k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>689a7860-5b37-44b6-a694-9376c608c610</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>180k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>a32e3fb2-8657-4e05-b5b4-3c1dec7b9388</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>e310a052-5cc7-4d4a-ae75-eb2997d25b51</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>1aa0ba6e-d627-4385-ae96-35dbc7624abc</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>e62a33c5-2430-411c-aa08-7a220f06602e</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>39k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>9e9580c0-b33b-4cbe-b1c3-8a7ecdeb588e</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>644df17e-6a1d-4675-be59-0abeaa0d8894</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>30k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>88f5ab3b-5e72-4184-a372-92e69146270b</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>50k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>ef97133f-27eb-45dd-98b9-3e2cb5c8eab0</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>5k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>bbf09039-5ab1-49fa-9b11-d00aefc9a22f</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>67b19096-20f9-4fc0-917f-1b4897d25e92</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>62249ffd-6452-4cfd-846f-16f7fc96bee0</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>39k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>56ad5f7b-c4ab-4f6a-a293-af679afe0876</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>39k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>ba1bda8b-da8b-49b4-9341-5ebb94e8d45d</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>a0c0fae2-5b24-4e59-96e6-aaa6a1ca9d88</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>274cffce-520d-4e68-9a55-f0703f324525</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>39k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>ab195231-98a8-476f-a8d9-c6bf139cf2f3</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>39k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>97fb94a4-ac7a-400f-9695-fa91893c56f5</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>bf69b209-da68-4355-ae5a-046f76ad173e</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>39k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>0006b37e-e1ec-4f05-83f8-d9311154443a</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>1.5k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>a2e3ed38-78fc-454e-9693-99632a0300e8</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>13k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>16b514a9-9f63-4687-96fa-a95522d74796</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>1.5k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>6c8de5bc-5772-4846-b041-b433bc4084d5</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>30k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>9211bf1c-48e0-40d6-b6bc-af77bd3d8965</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>50k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>27ea91c3-4f05-4433-9dcb-2cf8c8b6be4e</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>5k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>a5e4509c-8d78-4d1c-a5f9-beba096246c8</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>180k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>5b62d30b-b525-4e37-8bf3-9f50ed47fe1b</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>c228949d-1351-4dc2-8f57-e7b6c1fce128</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>7a663b9e-6947-483b-b1fc-d45dd9f6c27a</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>1k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>861728b2-136e-4e4f-9bf5-79f4b3d79603</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">R_Potentiometer</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Model" value="R_Potentiometer"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>dd12c59f-c1c7-4ef2-bbab-e306c7cf9eea</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">R_Potentiometer</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Model" value="R_Potentiometer"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>71a6d4e1-6ef3-49ac-b0c7-680224c20ea4</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>lm13700</value>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_LM13700.lib</field>
+        <field name="Spice_Model">MY_LM13700</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="mylib" part="lm13700" description=""/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="MY_LM13700"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_LM13700.lib"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>fea51197-669a-401f-bb12-137df232d6f0 b8d2c4c7-14cd-4eca-9bac-bfcc18e48c3c b61aed84-75d0-4abf-bccb-8411046561d3 c95fac51-eaad-4bcd-b3d7-4be2d49d02a6 22db35a1-a997-4f54-b750-c0c0f35ae402</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>tl072</value>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib</field>
+        <field name="Spice_Model">MY_TL072</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="mylib" part="tl072" description=""/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="MY_TL072"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>6e405985-20e4-4ab8-81d7-f40eacc3c2f6 5548ec51-e628-43ed-9cbd-04f9fa679f11 23989a6d-e42a-4325-aace-7dc7373cc98d</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>tl072</value>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib</field>
+        <field name="Spice_Model">MY_TL072</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="mylib" part="tl072" description=""/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="MY_TL072"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>bb70fc83-2d5e-42aa-b6c5-452776e0977e bebd937a-9224-4ad4-99c8-f3a1f1c950ec 91ffd766-4150-4b97-abc3-4c061158a27e</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>tl072</value>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib</field>
+        <field name="Spice_Model">MY_TL072</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="mylib" part="tl072" description=""/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="MY_TL072"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>de086f5a-415a-41d4-b44f-de679443d37d 393f372a-3bbe-4067-acfb-dc77437af26f 11e36f92-d0f4-43e5-8189-47625c2df708</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>tl072</value>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib</field>
+        <field name="Spice_Model">MY_TL072</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="mylib" part="tl072" description=""/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="MY_TL072"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>b2079003-91c1-4fe2-889b-01d1bc0fb5a4 8019428b-ebfa-48ba-b146-acd4af464635 6d048e31-758b-4b80-bc5e-be6a86800ec9</tstamps>
+    </comp>
+    <comp ref="V4">
+      <value>VSOURCE</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">sin(2.5 2.5 3)</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="pspice" part="VSOURCE" description="Voltage source symbol for simulation only"/>
+      <property name="Spice_Primitive" value="V"/>
+      <property name="Spice_Model" value="sin(2.5 2.5 3)"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>affa1d2a-0a41-4863-b0a1-23607e52faba</tstamps>
+    </comp>
+    <comp ref="V5">
+      <value>VSOURCE</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">sin(2.5 2.5 2)</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="pspice" part="VSOURCE" description="Voltage source symbol for simulation only"/>
+      <property name="Spice_Primitive" value="V"/>
+      <property name="Spice_Model" value="sin(2.5 2.5 2)"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>b9640899-02e2-481d-8165-143546a21a4d</tstamps>
+    </comp>
+    <comp ref="V6">
+      <value>VSOURCE</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">sin(0 2.5 40)</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="pspice" part="VSOURCE" description="Voltage source symbol for simulation only"/>
+      <property name="Spice_Primitive" value="V"/>
+      <property name="Spice_Model" value="sin(0 2.5 40)"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>d763f07c-7751-44cf-b263-34e3ce6c0bfc</tstamps>
+    </comp>
+    <comp ref="V7">
+      <value>VSOURCE</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">sin(2.5 2.5 3.3)</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="pspice" part="VSOURCE" description="Voltage source symbol for simulation only"/>
+      <property name="Spice_Primitive" value="V"/>
+      <property name="Spice_Model" value="sin(2.5 2.5 3.3)"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>93800979-6af5-4bdf-9ace-1110e829d5ee</tstamps>
+    </comp>
+    <comp ref="V8">
+      <value>VSOURCE</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">sin(2.5 2.5 1.2)</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="pspice" part="VSOURCE" description="Voltage source symbol for simulation only"/>
+      <property name="Spice_Primitive" value="V"/>
+      <property name="Spice_Model" value="sin(2.5 2.5 1.2)"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>5febc739-91ed-49b1-bc77-06694147524a</tstamps>
+    </comp>
+    <comp ref="V9">
+      <value>VSOURCE</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">sin(0 2.5 40)</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="pspice" part="VSOURCE" description="Voltage source symbol for simulation only"/>
+      <property name="Spice_Primitive" value="V"/>
+      <property name="Spice_Model" value="sin(0 2.5 40)"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value="vca"/>
+      <property name="Sheetfile" value="vca.kicad_sch"/>
+      <sheetpath names="/vca/" tstamps="/0483b21f-e43a-4473-82b6-f5222b71de26/"/>
+      <tstamps>ae5cbd89-a2e3-4cf8-a243-ef0bf603e689</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>5db16fa1-3924-4709-82c9-cea5f51cdf05</tstamps>
+    </comp>
+    <comp ref="J_LFO_CV1">
+      <value>AudioJack2_SwitchT</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">AudioJack2_SwitchT</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Spice_Primitive" value="J"/>
+      <property name="Spice_Model" value="AudioJack2_SwitchT"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>71781fa4-9c95-4abe-888b-6a325101c6a7</tstamps>
+    </comp>
+    <comp ref="J_LFO_RSAW1">
+      <value>AudioJack2_SwitchT</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">AudioJack2_SwitchT</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Spice_Primitive" value="J"/>
+      <property name="Spice_Model" value="AudioJack2_SwitchT"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>d68ce89b-d570-4af7-a69c-3a00812bca56</tstamps>
+    </comp>
+    <comp ref="J_LFO_SAW1">
+      <value>AudioJack2_SwitchT</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">AudioJack2_SwitchT</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Spice_Primitive" value="J"/>
+      <property name="Spice_Model" value="AudioJack2_SwitchT"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>2c18f3ae-81b3-45ce-af3b-dd7a095cbbf5</tstamps>
+    </comp>
+    <comp ref="J_LFO_SQR1">
+      <value>AudioJack2_SwitchT</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">AudioJack2_SwitchT</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Spice_Primitive" value="J"/>
+      <property name="Spice_Model" value="AudioJack2_SwitchT"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>64a48385-2090-4805-a87a-88092f2eb4ca</tstamps>
+    </comp>
+    <comp ref="J_LFO_TRI1">
+      <value>AudioJack2_SwitchT</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">AudioJack2_SwitchT</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Spice_Primitive" value="J"/>
+      <property name="Spice_Model" value="AudioJack2_SwitchT"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>04bc6406-1ded-42c0-af43-c9a1047fe22a</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>a372f804-f35c-4c28-896a-fc5bfd81b1b0</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>18872506-20a0-41d8-8aa4-983af564a13c</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>50k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>e870b32d-44e7-40b9-9871-58c3196d1a45</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>120k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>1c10f608-40fe-4319-89ef-14875b42d1ac</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>bb727434-a817-4d46-ba59-233fc3f7c404</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>90k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>abb6169e-52aa-4cf9-a568-48082ce19b6b</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>c8e898c4-b11a-443a-93a0-1bc896794b98</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>30k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>e2183396-cd39-4ccd-acf4-1912044fff00</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>1Meg</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>06ea4294-63da-4530-85dd-cd45a22dd49a</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>80k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>38bd8580-cd5f-46f0-9e23-1342b922e3a7</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>47k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>22f9e768-a8b8-4cc7-ae96-a51c6041e3e0</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>fc312c49-9b54-41df-a4d0-a740af0b813e</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>6ba47b51-6d31-4858-8ea4-681c34c7b57e</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>47k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>72175e1e-4e77-481e-bb3c-4e22133e0fe7</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>47k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>a67f5b41-c2fb-4e14-82df-4b7aa3133dd0</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>47k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>57e1db4f-6538-4a18-b792-62a6e3d1b811</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>30k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>d4042835-cf41-48e6-855f-23862fa56381</tstamps>
+    </comp>
+    <comp ref="R50">
+      <value>70k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>9ee81390-8a1b-43c0-9f51-275ed4d3263b</tstamps>
+    </comp>
+    <comp ref="R51">
+      <value>47k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>3b0d5d98-42d9-4267-85b4-82c2b4f1fc2f</tstamps>
+    </comp>
+    <comp ref="R52">
+      <value>47k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>f208de7f-e30c-4386-908a-a3f4cafe2c0c</tstamps>
+    </comp>
+    <comp ref="R53">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>6fc9a181-7854-45a2-b5cf-294ab8c7746f</tstamps>
+    </comp>
+    <comp ref="R54">
+      <value>47k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>184b5a7d-fa03-4a0d-bf35-be0d37744858</tstamps>
+    </comp>
+    <comp ref="R55">
+      <value>60k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>1618f59b-c81a-4959-9536-9ee3d01931b7</tstamps>
+    </comp>
+    <comp ref="RV3">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">100k</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">R</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Spice_Primitive" value="R"/>
+      <property name="Spice_Model" value="100k"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>f12e3f04-d6bb-4263-8a93-cb5e841ffda2</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>tl072</value>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib</field>
+        <field name="Spice_Model">MY_TL072</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="mylib" part="tl072" description=""/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="MY_TL072"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>db0f1560-535e-45b2-b715-02ee887f5be5 ec1d9a15-9a4c-474a-b539-47ec3729b743 b21364d7-acaa-4661-b958-80e33e9edd52</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>lm13700</value>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_LM13700.lib</field>
+        <field name="Spice_Model">MY_LM13700</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="mylib" part="lm13700" description=""/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="MY_LM13700"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_LM13700.lib"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>dae670cd-089d-4d71-b2ee-810b6f190db7 82ecb3a5-589b-49ab-a9ef-2f94cde6da60 48d20112-7735-4ca9-8fc4-7a849a3325c2 6b599005-8c46-41d4-9591-5f02a618cc45 2628f9f7-6ac5-4c55-b74a-290dc4c96112</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>tl072</value>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib</field>
+        <field name="Spice_Model">MY_TL072</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="mylib" part="tl072" description=""/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="MY_TL072"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>e15c2991-729d-4dbb-994e-c90d1adf1dbc af889cb3-7f07-42fd-8584-8ed5753e6fe4 75165553-6a21-440b-9891-fc25956343f5</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>tl072</value>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib</field>
+        <field name="Spice_Model">MY_TL072</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="mylib" part="tl072" description=""/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="MY_TL072"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>cce83217-1b3b-4979-b8b2-c6c210b06960 f49a9a5d-f3f4-4ab5-b402-37bf894667a0 0c2a1219-373f-4ccc-8bc5-aab69752e2b8</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>tl072</value>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib</field>
+        <field name="Spice_Model">MY_TL072</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="mylib" part="tl072" description=""/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="MY_TL072"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>c526f8aa-36ed-493f-8430-8ede0dea83df 9f48ea0c-ccaa-42cc-bb48-74b3dbf19dea 17f3102a-84a7-4af1-ac25-e1c97731748a</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>tl072</value>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib</field>
+        <field name="Spice_Model">MY_TL072</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="mylib" part="tl072" description=""/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="MY_TL072"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>dbb10814-0173-43d7-8375-f09d4aaa4717 e01d7e26-8d2a-4435-80ed-3575bbe9bcff 3aab6c47-5135-407c-bdef-d99374e8d855</tstamps>
+    </comp>
+    <comp ref="V10">
+      <value>VSOURCE</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">pulse(0 5 0 10m 10m 5 10)</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="pspice" part="VSOURCE" description="Voltage source symbol for simulation only"/>
+      <property name="Spice_Primitive" value="V"/>
+      <property name="Spice_Model" value="pulse(0 5 0 10m 10m 5 10)"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>b0d0e479-5111-4e49-ac85-ce756865e3b8</tstamps>
+    </comp>
+    <comp ref="XQ1">
+      <value>2N7002</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NJFET_GSD" description="N-JFET transistor, gate/source/drain"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>f626064b-853b-4b9b-95a0-b89c31bc37a0</tstamps>
+    </comp>
+    <comp ref="XQ2">
+      <value>2N7002</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NJFET_GSD" description="N-JFET transistor, gate/source/drain"/>
+      <property name="Sheetname" value="vclfo"/>
+      <property name="Sheetfile" value="C:/Users/danie/Documents/kicad/multitool_v2/vclfo.kicad_sch"/>
+      <sheetpath names="/vclfo/" tstamps="/04a481dc-1713-4bd9-987f-0e83b4e1a00c/"/>
+      <tstamps>8add4a59-b9b4-4eb6-bd7b-0279eb149a85</tstamps>
+    </comp>
+    <comp ref="J_MIX1">
+      <value>AudioJack2_SwitchT</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">AudioJack2_SwitchT</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Spice_Primitive" value="J"/>
+      <property name="Spice_Model" value="AudioJack2_SwitchT"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>d460fcee-f0ed-4b5a-93e2-c53a5d5a483b</tstamps>
+    </comp>
+    <comp ref="J_MIX2">
+      <value>AudioJack2_SwitchT</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">AudioJack2_SwitchT</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Spice_Primitive" value="J"/>
+      <property name="Spice_Model" value="AudioJack2_SwitchT"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>6d4d4412-984f-4745-b3f5-73bc32b691a3</tstamps>
+    </comp>
+    <comp ref="J_MIX3">
+      <value>AudioJack2_SwitchT</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">AudioJack2_SwitchT</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Spice_Primitive" value="J"/>
+      <property name="Spice_Model" value="AudioJack2_SwitchT"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>70344b6c-5883-4b16-9df8-6630184a39a8</tstamps>
+    </comp>
+    <comp ref="J_MIX4">
+      <value>AudioJack2_SwitchT</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">AudioJack2_SwitchT</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Spice_Primitive" value="J"/>
+      <property name="Spice_Model" value="AudioJack2_SwitchT"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>b1f01301-5a1a-4b56-be28-56afb34b434e</tstamps>
+    </comp>
+    <comp ref="J_MIX_OUT1">
+      <value>AudioJack2_SwitchT</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">AudioJack2_SwitchT</field>
+        <field name="Spice_Netlist_Enabled">N</field>
+        <field name="Spice_Primitive">J</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Spice_Primitive" value="J"/>
+      <property name="Spice_Model" value="AudioJack2_SwitchT"/>
+      <property name="Spice_Netlist_Enabled" value="N"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>9cb3b667-e4c0-4e51-bc7e-1c1ea986b3d8</tstamps>
+    </comp>
+    <comp ref="R56">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>b1b2ce05-425b-4130-87e2-d1e75f7852fc</tstamps>
+    </comp>
+    <comp ref="R57">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>dbda491f-0e03-4f0c-8d03-020a18d40164</tstamps>
+    </comp>
+    <comp ref="R58">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>4f2cb6d5-8d0a-4a1a-9134-c1954f11aa27</tstamps>
+    </comp>
+    <comp ref="R59">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>01e5171c-9e7b-446e-8d4f-4e638be219b6</tstamps>
+    </comp>
+    <comp ref="R60">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>4d192427-a4d8-4720-8ea3-b53b6777bd8c</tstamps>
+    </comp>
+    <comp ref="R61">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>8c113231-6a8a-44d3-905d-9f0df88deb74</tstamps>
+    </comp>
+    <comp ref="R62">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>5a1caa1d-297e-44db-b09f-9bc082d2cda8</tstamps>
+    </comp>
+    <comp ref="R63">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>ff075554-972c-43b6-8671-ab2bf7859bba</tstamps>
+    </comp>
+    <comp ref="R64">
+      <value>2.2Meg</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>57a9f5e0-3029-40b7-9351-c2431b9b556a</tstamps>
+    </comp>
+    <comp ref="R65">
+      <value>2.2Meg</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>2f1219bd-fd8f-42b9-a2a2-ec0096d2004a</tstamps>
+    </comp>
+    <comp ref="R66">
+      <value>2.2Meg</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>a0cb07a4-b4f3-4cf1-b9ed-fa76f43b4ed3</tstamps>
+    </comp>
+    <comp ref="R67">
+      <value>2.2Meg</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>7cb84f81-a56d-46e8-b394-fe71d8aa4639</tstamps>
+    </comp>
+    <comp ref="R68">
+      <value>2.2Meg</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>9b184671-5b16-41db-b41a-3f11742b52ac</tstamps>
+    </comp>
+    <comp ref="R69">
+      <value>1k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>31ffaad2-6cfa-41f5-9707-d32b65bd5b53</tstamps>
+    </comp>
+    <comp ref="RV_MIX1">
+      <value>R_Potentiometer</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_POT.lib</field>
+        <field name="Spice_Model">pot100k_highish</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="pot100k_highish"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_POT.lib"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>d649fadf-97a1-40b0-889c-35d38bab7cb1</tstamps>
+    </comp>
+    <comp ref="RV_MIX2">
+      <value>R_Potentiometer</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_POT.lib</field>
+        <field name="Spice_Model">pot100k_highish</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="pot100k_highish"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_POT.lib"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>96f2b6a4-0e1d-4163-af20-ecf3b9fe43b0</tstamps>
+    </comp>
+    <comp ref="RV_MIX3">
+      <value>R_Potentiometer</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_POT.lib</field>
+        <field name="Spice_Model">pot100k_highish</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="pot100k_highish"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_POT.lib"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>04d38cc3-bb8b-4d08-8e07-739a8a0a995a</tstamps>
+    </comp>
+    <comp ref="RV_MIX4">
+      <value>R_Potentiometer</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_POT.lib</field>
+        <field name="Spice_Model">pot100k_highish</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="pot100k_highish"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_POT.lib"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>10682b76-c613-4611-b697-cd826572a696</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>tl072</value>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib</field>
+        <field name="Spice_Model">MY_TL072</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="mylib" part="tl072" description=""/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="MY_TL072"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>b1586dfa-d39b-46ee-b5db-df97ec1e500a ee6b3b80-002b-4180-a5a0-3c100de4f60c 7373733d-d786-4490-a02d-65088f4bd294</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>tl072</value>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib</field>
+        <field name="Spice_Model">MY_TL072</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="mylib" part="tl072" description=""/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="MY_TL072"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>2271fe64-8bd3-494a-8b9d-6202b2247fa0 3ded238c-7267-4754-b6c5-e0ffb3baa4ba 05fe355e-e00d-4da8-9f71-3d590fc0e0dd</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>tl072</value>
+      <fields>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib</field>
+        <field name="Spice_Model">MY_TL072</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">X</field>
+      </fields>
+      <libsource lib="mylib" part="tl072" description=""/>
+      <property name="Spice_Primitive" value="X"/>
+      <property name="Spice_Model" value="MY_TL072"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Lib_File" value="C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>872ba787-2436-4904-ba52-1ddab7908c37 a76112d9-441f-4488-8096-403d325d4a3d 41be145f-fce6-43a6-93b1-34445309b30d</tstamps>
+    </comp>
+    <comp ref="V11">
+      <value>VSOURCE</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">sin(0 2.5 1)</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="pspice" part="VSOURCE" description="Voltage source symbol for simulation only"/>
+      <property name="Spice_Primitive" value="V"/>
+      <property name="Spice_Model" value="sin(0 2.5 1)"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>b07e4dc7-2301-41d5-9dd8-30243b7e2c0e</tstamps>
+    </comp>
+    <comp ref="V12">
+      <value>VSOURCE</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">sin(0 5 300m)</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="pspice" part="VSOURCE" description="Voltage source symbol for simulation only"/>
+      <property name="Spice_Primitive" value="V"/>
+      <property name="Spice_Model" value="sin(0 5 300m)"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>23b5018b-b159-4632-8e12-a4ff3b139899</tstamps>
+    </comp>
+    <comp ref="V13">
+      <value>VSOURCE</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">sin(0 3.5 700m)</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="pspice" part="VSOURCE" description="Voltage source symbol for simulation only"/>
+      <property name="Spice_Primitive" value="V"/>
+      <property name="Spice_Model" value="sin(0 3.5 700m)"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>136201e8-c5d8-4d80-9d75-5dad09cf7030</tstamps>
+    </comp>
+    <comp ref="V14">
+      <value>VSOURCE</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Model">sin(0 2.5 1.1)</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="pspice" part="VSOURCE" description="Voltage source symbol for simulation only"/>
+      <property name="Spice_Primitive" value="V"/>
+      <property name="Spice_Model" value="sin(0 2.5 1.1)"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Sheetname" value="active_mixer"/>
+      <property name="Sheetfile" value="active_mixer.kicad_sch"/>
+      <sheetpath names="/active_mixer/" tstamps="/64f0b70b-f9cc-4adc-904f-bddd1e6e332a/"/>
+      <tstamps>0cabc890-bad3-4302-8d57-76c6d1174c2f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AudioJack2_SwitchT">
+      <description>Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2_SwitchT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+        <pin num="TN" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x06_Odd_Even">
+      <description>Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x06_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NJFET_GSD">
+      <description>N-JFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NJFET_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mylib" part="lm13700">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">lm13700</field>
+        <field name="Spice_Primitive">X</field>
+        <field name="Spice_Model">MY_LM13700</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_LM13700.lib</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="d" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="" type="output"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="input"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="11" name="+" type="input"/>
+        <pin num="12" name="" type="output"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="+" type="input"/>
+        <pin num="15" name="d" type="input"/>
+        <pin num="16" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="mylib" part="tl072">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">tl072</field>
+        <field name="Spice_Primitive">X</field>
+        <field name="Spice_Model">MY_TL072</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Lib_File">C:\Users\danie\Documents\kicad\mylibs\MY_TL072.lib</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="VSOURCE">
+      <description>Voltage source symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">V</field>
+        <field name="Value">VSOURCE</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E1" type="input"/>
+        <pin num="2" name="E2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:/Program Files/KiCad/5.99/share/kicad/library/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:/Program Files/KiCad/5.99/share/kicad/library/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:/Program Files/KiCad/5.99/share/kicad/library/Device.kicad_sym</uri>
+    </library>
+    <library logical="mylib">
+      <uri>C:/Users/danie/Documents/kicad/mylibs/mylib.kicad_sym</uri>
+    </library>
+    <library logical="pspice">
+      <uri>C:/Program Files/KiCad/5.99/share/kicad/library/pspice.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="V3" pin="1" pinfunction="E1" pintype="input"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R49" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="+" pintype="input"/>
+      <node ref="U10" pin="8" pinfunction="+" pintype="power_in"/>
+      <node ref="U11" pin="8" pinfunction="+" pintype="power_in"/>
+      <node ref="U12" pin="8" pinfunction="+" pintype="power_in"/>
+      <node ref="U13" pin="8" pinfunction="+" pintype="power_in"/>
+      <node ref="U14" pin="8" pinfunction="+" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="+" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="+" pintype="power_in"/>
+      <node ref="U4" pin="8" pinfunction="+" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="+" pintype="power_in"/>
+      <node ref="U6" pin="8" pinfunction="+" pintype="power_in"/>
+      <node ref="U7" pin="11" pinfunction="+" pintype="input"/>
+      <node ref="U8" pin="8" pinfunction="+" pintype="power_in"/>
+      <node ref="U9" pin="8" pinfunction="+" pintype="power_in"/>
+      <node ref="V1" pin="1" pinfunction="E1" pintype="input"/>
+    </net>
+    <net code="3" name="-12V">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U10" pin="4" pinfunction="-" pintype="power_in"/>
+      <node ref="U11" pin="4" pinfunction="-" pintype="power_in"/>
+      <node ref="U12" pin="4" pinfunction="-" pintype="power_in"/>
+      <node ref="U13" pin="4" pinfunction="-" pintype="power_in"/>
+      <node ref="U14" pin="4" pinfunction="-" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="-" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="-" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="-" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="-" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="-" pintype="power_in"/>
+      <node ref="U7" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U8" pin="4" pinfunction="-" pintype="power_in"/>
+      <node ref="U9" pin="4" pinfunction="-" pintype="power_in"/>
+      <node ref="V2" pin="2" pinfunction="E2" pintype="input"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J_LFO_CV1" pin="S" pintype="passive"/>
+      <node ref="J_LFO_RSAW1" pin="S" pintype="passive"/>
+      <node ref="J_LFO_SAW1" pin="S" pintype="passive"/>
+      <node ref="J_LFO_SQR1" pin="S" pintype="passive"/>
+      <node ref="J_LFO_TRI1" pin="S" pintype="passive"/>
+      <node ref="J_MIX1" pin="S" pintype="passive"/>
+      <node ref="J_MIX2" pin="S" pintype="passive"/>
+      <node ref="J_MIX3" pin="S" pintype="passive"/>
+      <node ref="J_MIX4" pin="S" pintype="passive"/>
+      <node ref="J_MIX_OUT1" pin="S" pintype="passive"/>
+      <node ref="J_VCA1_CV1" pin="S" pintype="passive"/>
+      <node ref="J_VCA1_CV2" pin="S" pintype="passive"/>
+      <node ref="J_VCA1_IN1" pin="S" pintype="passive"/>
+      <node ref="J_VCA1_IN2" pin="S" pintype="passive"/>
+      <node ref="J_VCA1_OUT1" pin="S" pintype="passive"/>
+      <node ref="J_VCA1_OUT2" pin="S" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="R50" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV_MIX1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV_MIX2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV_MIX3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV_MIX4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U11" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U12" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U12" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U13" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U13" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U14" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U14" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U5" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U6" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U6" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U7" pin="4" pinfunction="-" pintype="input"/>
+      <node ref="U9" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U9" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="V1" pin="2" pinfunction="E2" pintype="input"/>
+      <node ref="V10" pin="2" pinfunction="E2" pintype="input"/>
+      <node ref="V11" pin="2" pinfunction="E2" pintype="input"/>
+      <node ref="V12" pin="2" pinfunction="E2" pintype="input"/>
+      <node ref="V13" pin="2" pinfunction="E2" pintype="input"/>
+      <node ref="V14" pin="2" pinfunction="E2" pintype="input"/>
+      <node ref="V2" pin="1" pinfunction="E1" pintype="input"/>
+      <node ref="V3" pin="2" pinfunction="E2" pintype="input"/>
+      <node ref="V4" pin="2" pinfunction="E2" pintype="input"/>
+      <node ref="V5" pin="2" pinfunction="E2" pintype="input"/>
+      <node ref="V6" pin="2" pinfunction="E2" pintype="input"/>
+      <node ref="V7" pin="2" pinfunction="E2" pintype="input"/>
+      <node ref="V8" pin="2" pinfunction="E2" pintype="input"/>
+      <node ref="V9" pin="2" pinfunction="E2" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pintype="output"/>
+      <node ref="U3" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="output"/>
+    </net>
+    <net code="7" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="output"/>
+    </net>
+    <net code="9" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pintype="output"/>
+    </net>
+    <net code="11" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pintype="output"/>
+      <node ref="U5" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pintype="output"/>
+    </net>
+    <net code="13" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U7" pin="5" pintype="output"/>
+      <node ref="U8" pin="2" pinfunction="-" pintype="input"/>
+      <node ref="U8" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(J_LFO_CV1-PadT)">
+      <node ref="J_LFO_CV1" pin="T" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="V10" pin="1" pinfunction="E1" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(J_LFO_RSAW1-PadT)">
+      <node ref="J_LFO_RSAW1" pin="T" pintype="passive"/>
+      <node ref="R53" pin="1" pintype="passive"/>
+      <node ref="U11" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U11" pin="7" pintype="output"/>
+    </net>
+    <net code="16" name="Net-(J_LFO_SAW1-PadT)">
+      <node ref="J_LFO_SAW1" pin="T" pintype="passive"/>
+      <node ref="R55" pin="1" pintype="passive"/>
+      <node ref="U10" pin="7" pintype="output"/>
+    </net>
+    <net code="17" name="Net-(J_LFO_SQR1-PadT)">
+      <node ref="J_LFO_SQR1" pin="T" pintype="passive"/>
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="U9" pin="7" pintype="output"/>
+      <node ref="XQ1" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(J_LFO_TRI1-PadT)">
+      <node ref="J_LFO_TRI1" pin="T" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U8" pin="7" pintype="output"/>
+      <node ref="XQ2" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(J_MIX1-PadT)">
+      <node ref="J_MIX1" pin="T" pintype="passive"/>
+      <node ref="R56" pin="1" pintype="passive"/>
+      <node ref="V11" pin="1" pinfunction="E1" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(J_MIX2-PadT)">
+      <node ref="J_MIX2" pin="T" pintype="passive"/>
+      <node ref="R57" pin="1" pintype="passive"/>
+      <node ref="V12" pin="1" pinfunction="E1" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(J_MIX3-PadT)">
+      <node ref="J_MIX3" pin="T" pintype="passive"/>
+      <node ref="R58" pin="1" pintype="passive"/>
+      <node ref="V13" pin="1" pinfunction="E1" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(J_MIX4-PadT)">
+      <node ref="J_MIX4" pin="T" pintype="passive"/>
+      <node ref="R59" pin="1" pintype="passive"/>
+      <node ref="V14" pin="1" pinfunction="E1" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(J_MIX_OUT1-PadT)">
+      <node ref="J_MIX_OUT1" pin="T" pintype="passive"/>
+      <node ref="R69" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(J_VCA1_CV1-PadT)">
+      <node ref="J_VCA1_CV1" pin="T" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="V4" pin="1" pinfunction="E1" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(J_VCA1_CV2-PadT)">
+      <node ref="J_VCA1_CV2" pin="T" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="V7" pin="1" pinfunction="E1" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(J_VCA1_IN1-PadT)">
+      <node ref="J_VCA1_IN1" pin="T" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="V6" pin="1" pinfunction="E1" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(J_VCA1_IN2-PadT)">
+      <node ref="J_VCA1_IN2" pin="T" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="V9" pin="1" pinfunction="E1" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(J_VCA1_OUT1-PadT)">
+      <node ref="J_VCA1_OUT1" pin="T" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(J_VCA1_OUT2-PadT)">
+      <node ref="J_VCA1_OUT2" pin="T" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="d" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pintype="output"/>
+    </net>
+    <net code="34" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="7" pintype="output"/>
+    </net>
+    <net code="36" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="input"/>
+    </net>
+    <net code="38" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="V5" pin="1" pinfunction="E1" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="V8" pin="1" pinfunction="E1" pintype="input"/>
+    </net>
+    <net code="42" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="43" name="Net-(R21-Pad2)">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U4" pin="7" pintype="output"/>
+    </net>
+    <net code="44" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(R24-Pad2)">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="d" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(R25-Pad2)">
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(R30-Pad2)">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(R31-Pad2)">
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U5" pin="7" pintype="output"/>
+    </net>
+    <net code="50" name="Net-(R33-Pad2)">
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(R34-Pad2)">
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="U6" pin="1" pintype="output"/>
+    </net>
+    <net code="52" name="Net-(R35-Pad1)">
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(R36-Pad1)">
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="RV3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(R37-Pad2)">
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="55" name="Net-(R38-Pad2)">
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="U8" pin="1" pintype="output"/>
+      <node ref="XQ2" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="56" name="Net-(R39-Pad2)">
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="U6" pin="7" pintype="output"/>
+    </net>
+    <net code="57" name="Net-(R40-Pad1)">
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="U7" pin="1" pintype="input"/>
+    </net>
+    <net code="58" name="Net-(R41-Pad2)">
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="59" name="Net-(R43-Pad1)">
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="R46" pin="2" pintype="passive"/>
+      <node ref="U9" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="60" name="Net-(R44-Pad2)">
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(R45-Pad1)">
+      <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="U9" pin="1" pintype="output"/>
+      <node ref="XQ1" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(R47-Pad1)">
+      <node ref="R47" pin="1" pintype="passive"/>
+      <node ref="R48" pin="1" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="63" name="Net-(R47-Pad2)">
+      <node ref="R47" pin="2" pintype="passive"/>
+      <node ref="XQ1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(R48-Pad2)">
+      <node ref="R48" pin="2" pintype="passive"/>
+      <node ref="XQ2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(R49-Pad2)">
+      <node ref="R49" pin="2" pintype="passive"/>
+      <node ref="R50" pin="1" pintype="passive"/>
+      <node ref="R51" pin="2" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(R51-Pad1)">
+      <node ref="R51" pin="1" pintype="passive"/>
+      <node ref="R52" pin="1" pintype="passive"/>
+      <node ref="R53" pin="2" pintype="passive"/>
+      <node ref="U11" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="67" name="Net-(R52-Pad2)">
+      <node ref="R52" pin="2" pintype="passive"/>
+      <node ref="U10" pin="1" pintype="output"/>
+      <node ref="U10" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="68" name="Net-(R54-Pad1)">
+      <node ref="R54" pin="1" pintype="passive"/>
+      <node ref="R55" pin="2" pintype="passive"/>
+      <node ref="U10" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="69" name="Net-(R54-Pad2)">
+      <node ref="R54" pin="2" pintype="passive"/>
+      <node ref="U11" pin="1" pintype="output"/>
+      <node ref="U11" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="70" name="Net-(R56-Pad2)">
+      <node ref="R56" pin="2" pintype="passive"/>
+      <node ref="R60" pin="1" pintype="passive"/>
+      <node ref="U12" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="71" name="Net-(R57-Pad2)">
+      <node ref="R57" pin="2" pintype="passive"/>
+      <node ref="R61" pin="1" pintype="passive"/>
+      <node ref="U12" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="72" name="Net-(R58-Pad2)">
+      <node ref="R58" pin="2" pintype="passive"/>
+      <node ref="R62" pin="1" pintype="passive"/>
+      <node ref="U13" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="73" name="Net-(R59-Pad2)">
+      <node ref="R59" pin="2" pintype="passive"/>
+      <node ref="R63" pin="1" pintype="passive"/>
+      <node ref="U13" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="74" name="Net-(R60-Pad2)">
+      <node ref="R60" pin="2" pintype="passive"/>
+      <node ref="RV_MIX1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U12" pin="1" pintype="output"/>
+    </net>
+    <net code="75" name="Net-(R61-Pad2)">
+      <node ref="R61" pin="2" pintype="passive"/>
+      <node ref="RV_MIX2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U12" pin="7" pintype="output"/>
+    </net>
+    <net code="76" name="Net-(R62-Pad2)">
+      <node ref="R62" pin="2" pintype="passive"/>
+      <node ref="RV_MIX3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U13" pin="1" pintype="output"/>
+    </net>
+    <net code="77" name="Net-(R63-Pad2)">
+      <node ref="R63" pin="2" pintype="passive"/>
+      <node ref="RV_MIX4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U13" pin="7" pintype="output"/>
+    </net>
+    <net code="78" name="Net-(R64-Pad1)">
+      <node ref="R64" pin="1" pintype="passive"/>
+      <node ref="R65" pin="1" pintype="passive"/>
+      <node ref="R66" pin="1" pintype="passive"/>
+      <node ref="R67" pin="1" pintype="passive"/>
+      <node ref="R68" pin="2" pintype="passive"/>
+      <node ref="U14" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="79" name="Net-(R64-Pad2)">
+      <node ref="R64" pin="2" pintype="passive"/>
+      <node ref="RV_MIX1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(R65-Pad2)">
+      <node ref="R65" pin="2" pintype="passive"/>
+      <node ref="RV_MIX2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(R66-Pad2)">
+      <node ref="R66" pin="2" pintype="passive"/>
+      <node ref="RV_MIX3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(R67-Pad2)">
+      <node ref="R67" pin="2" pintype="passive"/>
+      <node ref="RV_MIX4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(R68-Pad1)">
+      <node ref="R68" pin="1" pintype="passive"/>
+      <node ref="R69" pin="2" pintype="passive"/>
+      <node ref="U14" pin="1" pintype="output"/>
+    </net>
+    <net code="84" name="Net-(U14-Pad6)">
+      <node ref="U14" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U14" pin="7" pintype="output"/>
+    </net>
+    <net code="85" name="unconnected-(J_LFO_CV1-PadTN)">
+      <node ref="J_LFO_CV1" pin="TN" pintype="passive"/>
+    </net>
+    <net code="86" name="unconnected-(J_LFO_RSAW1-PadTN)">
+      <node ref="J_LFO_RSAW1" pin="TN" pintype="passive"/>
+    </net>
+    <net code="87" name="unconnected-(J_LFO_SAW1-PadTN)">
+      <node ref="J_LFO_SAW1" pin="TN" pintype="passive"/>
+    </net>
+    <net code="88" name="unconnected-(J_LFO_SQR1-PadTN)">
+      <node ref="J_LFO_SQR1" pin="TN" pintype="passive"/>
+    </net>
+    <net code="89" name="unconnected-(J_LFO_TRI1-PadTN)">
+      <node ref="J_LFO_TRI1" pin="TN" pintype="passive"/>
+    </net>
+    <net code="90" name="unconnected-(J_MIX1-PadTN)">
+      <node ref="J_MIX1" pin="TN" pintype="passive"/>
+    </net>
+    <net code="91" name="unconnected-(J_MIX2-PadTN)">
+      <node ref="J_MIX2" pin="TN" pintype="passive"/>
+    </net>
+    <net code="92" name="unconnected-(J_MIX3-PadTN)">
+      <node ref="J_MIX3" pin="TN" pintype="passive"/>
+    </net>
+    <net code="93" name="unconnected-(J_MIX4-PadTN)">
+      <node ref="J_MIX4" pin="TN" pintype="passive"/>
+    </net>
+    <net code="94" name="unconnected-(J_MIX_OUT1-PadTN)">
+      <node ref="J_MIX_OUT1" pin="TN" pintype="passive"/>
+    </net>
+    <net code="95" name="unconnected-(J_VCA1_CV1-PadTN)">
+      <node ref="J_VCA1_CV1" pin="TN" pintype="passive"/>
+    </net>
+    <net code="96" name="unconnected-(J_VCA1_CV2-PadTN)">
+      <node ref="J_VCA1_CV2" pin="TN" pintype="passive"/>
+    </net>
+    <net code="97" name="unconnected-(J_VCA1_IN1-PadTN)">
+      <node ref="J_VCA1_IN1" pin="TN" pintype="passive"/>
+    </net>
+    <net code="98" name="unconnected-(J_VCA1_IN2-PadTN)">
+      <node ref="J_VCA1_IN2" pin="TN" pintype="passive"/>
+    </net>
+    <net code="99" name="unconnected-(J_VCA1_OUT1-PadTN)">
+      <node ref="J_VCA1_OUT1" pin="TN" pintype="passive"/>
+    </net>
+    <net code="100" name="unconnected-(J_VCA1_OUT2-PadTN)">
+      <node ref="J_VCA1_OUT2" pin="TN" pintype="passive"/>
+    </net>
+    <net code="101" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pintype="input"/>
+    </net>
+    <net code="102" name="unconnected-(U1-Pad7)_1">
+      <node ref="U1" pin="7" pintype="input"/>
+    </net>
+    <net code="103" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pintype="output"/>
+    </net>
+    <net code="104" name="unconnected-(U1-Pad8)_1">
+      <node ref="U1" pin="8" pintype="output"/>
+    </net>
+    <net code="105" name="unconnected-(U7-Pad2)">
+      <node ref="U7" pin="2" pinfunction="d" pintype="input"/>
+    </net>
+    <net code="106" name="unconnected-(U7-Pad7)">
+      <node ref="U7" pin="7" pintype="input"/>
+    </net>
+    <net code="107" name="unconnected-(U7-Pad7)_1">
+      <node ref="U7" pin="7" pintype="input"/>
+    </net>
+    <net code="108" name="unconnected-(U7-Pad8)">
+      <node ref="U7" pin="8" pintype="output"/>
+    </net>
+    <net code="109" name="unconnected-(U7-Pad8)_1">
+      <node ref="U7" pin="8" pintype="output"/>
+    </net>
+    <net code="110" name="unconnected-(U7-Pad12)">
+      <node ref="U7" pin="12" pintype="output"/>
+    </net>
+    <net code="111" name="unconnected-(U7-Pad13)">
+      <node ref="U7" pin="13" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="112" name="unconnected-(U7-Pad14)">
+      <node ref="U7" pin="14" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="113" name="unconnected-(U7-Pad15)">
+      <node ref="U7" pin="15" pinfunction="d" pintype="input"/>
+    </net>
+    <net code="114" name="unconnected-(U7-Pad16)">
+      <node ref="U7" pin="16" pintype="input"/>
+    </net>
+  </nets>
+</export>
